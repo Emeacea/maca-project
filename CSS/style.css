@@ -1,0 +1,425 @@
+/* tipos de selectoETIQUETA UNIVERSAL */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* ETIQUETAS ABSOLUTAS (débiles) */
+/* Body */
+body{
+    background-image: url(../Imagenes/fondo\ nuevo.jpg);
+    background-repeat: repeat;
+    color: black;
+    margin: 0;
+}
+
+/* nav */
+.nav-back {
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+.text-color {
+    color: white;
+    transition: calc(0.5s);
+}
+.text-color:hover {
+    color: wheat;
+}
+.space {
+    margin: 0px 15px;
+}
+
+/* logo */
+
+.logo1 {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+.alinear {
+    text-align: right;
+    display: inline-block;
+}
+
+/* Clases generales*/
+
+.flex-dir {
+    display: flex;
+    flex-direction: row;
+}
+.flex-basis {
+    flex-basis: 50%;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.FONDO-NEGRO {
+    background-color: black;
+}
+
+/* Clases para las 6 fotos */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 15px;
+    grid-template-areas: 
+    "f1 f2"
+    "f3 f4"
+    "f5 f6";
+}
+.f1 {
+    grid-area: f1;
+    display: grid;
+    place-items: center;
+}
+.f2 {
+    grid-area: f2;
+    display: grid;
+    place-items: center;
+}
+.f3 {
+    grid-area: f3;
+    display: grid;
+    place-items: center;
+}
+.f4 {
+    grid-area: f4;
+    display: grid;
+    place-items: center;
+}
+.f5 {
+    grid-area: f5;
+    display: grid;
+    place-items: center;
+}
+.f6 {
+    grid-area: f6;
+    display: grid;
+    place-items: center;
+}
+.foto6 {
+    width: 655px;
+    height: 300px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.foto6:hover {
+    opacity: 1.2;
+}
+.f-container {
+    width: 100%;
+    height: auto;
+}
+
+.divalign {
+    text-align: center;
+}
+
+.camionaligne {
+    display: inline-block;
+    padding: 0 40px;
+    color: white;
+}
+
+/* alineacion productos */
+.sectioncontainer {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.imagenprod {
+    width: 270px;
+    height: 260px;
+    padding: 0% 25px;
+}
+
+.imagenprod {
+    width: 250px;
+    height: 220px;
+    padding: 0% 25px;
+}
+
+.imagenprod2 {
+    width: 50px;
+    height: 30px;
+    padding: 0px 0.5px 0.5px 0px;
+}
+
+.divsep {
+    display: inline-block;
+    margin: 15px 15px;
+    background-color: rgba(72, 58, 83, 0.5);
+}
+
+.sepprodicon {
+    padding: 35px 0px 0px 25px;
+}
+
+.Septext {
+    margin: 15px;
+}
+
+/* alineacion iconos footer*/
+
+.sectioncontainer2 {
+    padding: 50px 25px;
+}
+
+.sectionaligner2 {
+    text-align: center;
+}
+
+.display-items2 {
+    display: inline-block;
+}
+
+.alineacionredes {
+    padding: 20px 25px;
+    text-align: center;
+    background-color: black;
+    color: #8C5637;
+}
+
+.redes {
+    width: 25px;
+    height: 25px;
+    padding: 0 25px ;
+}
+
+.fondo-gris {
+    background-color: black ;
+    padding: 5px;
+}
+
+.svgsize {
+    width: 50px;
+    height: 50px;
+} 
+
+/* TEXTOS */
+
+.titulos {
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.texto-general {
+    text-align: left;
+    padding: 0px 2px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+}
+
+.texto-prod {
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    margin: 0%;
+}
+
+.textoforms {
+    text-align: center;
+    color: white;
+    font-size: 20p;
+
+}
+
+/* NAV */
+
+.navdisplay {
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.navdisplay2 {
+    display: inline-block;
+    padding: 25px;
+}
+
+/* FORMULARIO DE CONTACTO */
+.formtexto {
+    text-align: center;
+}
+
+/* Formulario de logueo doble */
+.logueopadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logueohijo {
+    width: 100%;
+}
+
+.logueotexto {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px
+}
+
+.logueoseparacion {
+    padding: 25px 0px 50px 0px;
+}
+
+.logueoseparacion2 {
+    padding: 8px ;
+}
+
+.imput {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.alinearform {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-button {
+    border: none;
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.interiorform {
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+.Fondoform {
+    background-color: rgba(64, 30, 74, 0.5);
+    padding: 30px 0px 40px 0px;
+}
+
+.Fondoform2 {
+    background-color: rgba(72, 58, 83, 0.5);
+}
+
+.sepform3 {
+    padding: 30px;
+}
+
+.textocompra {
+    text-align: left;
+    padding: 0px 8px;
+    color: beige;
+    margin: 0px 10px;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.Textocompratit {
+    text-align: left;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px 35px;
+}
+
+.sofa {
+    text-align: left;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 109px;
+}
+
+.preciocuo {
+    text-align: left;
+    color: antiquewhite;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 5px 110px;
+}
+
+.colmed {
+    border: none;
+    background: rgba(167, 29, 155, 0.4);
+    cursor: pointer;
+    color: antiquewhite;
+    font-weight: bold;
+    margin: 10px 90px;
+    padding: 0px 30px 0px 50px;
+}
+
+.botoncarrito {
+    text-align: left;
+    padding: 0px 80px;
+    border: none;
+    background: rgba(167, 29, 155, 0.4);
+    cursor: pointer;
+    color: antiquewhite;
+    font-weight: lighter;
+}
+
+.imgcompra {
+    width: 800px;
+    height: 400px;
+    padding: 0px 0.5px 0.5px 0px;
+    margin: 0px 40px;
+    display: inline-block;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.imgcompra:hover {
+    opacity: 1.2;
+}
+
+.fondocompra {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    margin: 25px 0px 0px 0px;
+}
+
+/* MEDIAS */
+
+@media (width < 1400px){
+    .grid {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas: 
+        "f1"
+        "f2"
+        "f3"
+        "f4"
+        "f5"
+        "f6";
+    }
+}
+@media (width < 768px){
+    .foto6 {
+        width: 320px;
+        height: 270px;
+    }
+    .logueopadre {
+        flex-direction: column;
+    }
+}
+@media (width < 576px){
+    .foto6 {
+        width: 320px;
+        height: 270px;
+    }
+}
