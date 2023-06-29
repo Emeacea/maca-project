@@ -17,6 +17,7 @@ body{
 }
 
 /* nav */
+
 .nav-back {
     background-color: rgba(0, 0, 0, 0.6);
     
@@ -129,6 +130,7 @@ body{
 }
 
 /* alineacion productos */
+
 .sectioncontainer {
     text-align: center;
     padding-top: 5px;
@@ -193,6 +195,7 @@ body{
     padding: 0 25px ;
 }
 
+
 .fondo-gris {
     background-color: black ;
     padding: 5px;
@@ -250,11 +253,13 @@ body{
 }
 
 /* FORMULARIO DE CONTACTO */
+
 .formtexto {
     text-align: center;
 }
 
 /* Formulario de logueo doble */
+
 .logueopadre {
     display: flex;
     flex-direction: row;
@@ -392,7 +397,13 @@ body{
     padding: 25px;
     margin: 25px 0px 0px 0px;
 }
-
+.svg-style {
+    width: 64px;
+    height: 64px;
+}
+.svg-color {
+    fill: white;
+}
 /* MEDIAS */
 
 @media (width < 1400px){
